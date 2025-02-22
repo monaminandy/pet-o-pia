@@ -7,6 +7,7 @@ import Getstart from "@/components/Getstart";
 import Review from "@/components/Review";
 import Contactus from "@/components/Contactus";
 import Footer from "@/components/Footer";
+import Script from "next/script";
 
 
 
@@ -40,6 +41,11 @@ export default function Home() {
         <Contactus />
       </div>
       <Footer />
+      <Script
+        src="https://static.getbutton.io/widget/bundle.js?id=Tfwos"
+        strategy="lazyOnload" 
+        defer 
+      />
     </div>
     </>
   );
