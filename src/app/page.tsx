@@ -23,7 +23,7 @@ export default function Home() {
       </div>
       <div className="bg-primary  p-10">
         <h1 className="text-7xl ml-[20px] mr-[20px] mb-[30px] font-bold text-center mt-[100px] text-white ">
-              HOW TO GET STARTED?
+              HOW TO GET to STARTED?
         </h1>
         <Getstart />
       </div>
