@@ -5,6 +5,16 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --primary: #FF7A02;
+  --primaryone: #FFE7DB;
+  --primarytwo: #dd6a04;
+  --primarythree: #f9aa34;
+  --primaryfour: #e2ba04;
+  --primaryfive: #f7e3c5;
+  --dashboardone: #fd5e53;
+  --dashboardtwo: #fed7d5;  
+  --btnone: #f78336;
+
 }
 
 @media (prefers-color-scheme: dark) {
@@ -18,4 +28,10 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .btn_primary { 
+    @apply  border-white bg-primary px-8 py-3 text-white font-bold hover:bg-btnone
+  }
 }
