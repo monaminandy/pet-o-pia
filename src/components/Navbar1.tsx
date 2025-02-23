@@ -31,30 +31,10 @@ function Navbar({ className }: { className?: string }) {
         <MenuItem setActive={setActive} active={null} item="Content"></MenuItem>
         </Link>
         
-
-        <MenuItem setActive={setActive} active={active} item="Services">
-          <div className="  text-sm grid grid-cols-2 gap-10 p-4">
-            <ProductItem
-              title="Pet Shop"
-              description="The Pet Shop in Petopia offers more than just pet supplies—it's 
-              a complete experience for pet lovers, ensuring your pet’s well-being is 
-              always the top priority."
-            />
-            <ProductItem
-              title="Pet Care"
-              description="At Petopia, pet care isn’t just a service—it’s our passion. We provide a loving 
-              and nurturing environment tailored to every pet’s unique needs, from playful puppies to curious 
-              kittens and beyond."/>
-            <ProductItem
-              title="Veterinarians"
-              description="Veterinarians in Petopia are dedicated professionals who prioritize the health and well-being of your pets."
-            />
-            <ProductItem
-              title="Grooming Center"
-              description="The Grooming Center in Petopia offers top-tier grooming services to keep your pets looking and feeling their best."
-            />
-          </div>
-        </MenuItem>
+        <Link href="/services">
+        <MenuItem setActive={setActive} active={null} item="Services"></MenuItem>
+        </Link>
+        
         <Link href="/dashboard">
         <MenuItem setActive={setActive} active={null} item="Dashboard"></MenuItem>
         </Link>
