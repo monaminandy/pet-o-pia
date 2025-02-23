@@ -12,12 +12,12 @@ export const projects = [
     title: "Maximum Possibility",
     description:
       "Boredom. Accuracy Rate: 84%",
-    link: "https://netflix.com",
+    link: "https://.com",
   },
   {
     title: "Other Possibilities",
     description:
       "Anxiety or Stress. Accuracy Rate: 12% Attention-Seeking. Accuracy Rate: 4%",
-    link: "https://google.com",
+    link: "https://.com",
   },
 ];

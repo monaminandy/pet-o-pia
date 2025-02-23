@@ -11,6 +11,7 @@ const page = () => {
       <>
       <Navbar2 />
       <Sentiment1hero />
+      <p className="mt-[20px]">Dog.mp4 Uploaded Successfully</p>
       <div className="bg-white mt-[2rem]"> 
       <iframe src="/Dog.mp4" allowFullScreen className="w-[97rem] h-[20rem] bg-white" />
       </div>
